@@ -12,7 +12,7 @@ RUN npm install --f
 
 # Copies everything over to Docker environment
 COPY . ./
-# RUN npm start
+RUN npm run start
 
 #Stage 2
 #######################################
